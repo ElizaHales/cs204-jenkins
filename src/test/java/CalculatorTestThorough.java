@@ -92,7 +92,6 @@ public class CalculatorTestThorough {
             assertEquals(377 , myCalculator.fibonacciNumberFinder(14));
             assertEquals(610 , myCalculator.fibonacciNumberFinder(15));
             assertEquals(987 , myCalculator.fibonacciNumberFinder(16));
-
             assertEquals(317811 , myCalculator.fibonacciNumberFinder(28));
         }
 
