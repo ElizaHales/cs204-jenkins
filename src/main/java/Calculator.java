@@ -43,7 +43,7 @@ class Calculator {
         int first = 0;
         int second = 0;
         int fibonacci = 0;
-        for (int i = 1; i < n; i++) {
+        for (int i = 1; i <= n; i++) {
             if (i == 1) {
                 second = 1;
                 fibonacci = 1;
