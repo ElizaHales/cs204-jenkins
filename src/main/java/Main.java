@@ -10,7 +10,7 @@ public class Main {
       Calculator calculator=new Calculator();
       String commandName=inputObj.next();
       int firstArg=Integer.parseInt(inputObj.next());
-      if (inputObj.hasNext()) {
+      if (commandName.equals("add") || commandName.equals("subtract") || commandName.equals("multiply") || commandName.equals("divide")) {
         int secondArg = Integer.parseInt(inputObj.next());
         if (commandName.equals("add")) {
           System.out.println(calculator.add(firstArg, secondArg));
