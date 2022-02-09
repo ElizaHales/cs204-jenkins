@@ -17,7 +17,7 @@ public class Main {
       System.out.println("secondArg: " + secondArg);
     }
 
-    if (commandName == "add") {
+    if (commandName.equals("add")) {
       System.out.println(calculator.add(firstArg, secondArg));
     } else if (commandName == "subtract") {
       System.out.println(calculator.subtract(firstArg, secondArg));
