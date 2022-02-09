@@ -8,6 +8,7 @@ public class Main {
     Calculator calculator = new Calculator();
     Scanner inputObj = new Scanner(System.in);  // Create a Scanner object
     String commandName = inputObj.next();
+    System.out.println("command name: " + commandName);
     int firstArg = Integer.parseInt(inputObj.next());
     int secondArg = 0;
     if (inputObj.hasNext()) {
