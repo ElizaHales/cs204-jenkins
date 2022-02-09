@@ -28,7 +28,8 @@ public class Main {
     } else if (commandName == "fibonacci") {
       System.out.println(calculator.fibonacciNumberFinder(firstArg));
     } else if (commandName == "binary") {
-      System.out.println(calculator.intToBinaryNumber(firstArg));
+      String binaryNumber = calculator.intToBinaryNumber(firstArg);
+      System.out.println(binaryNumber);
     }
   }
 }
