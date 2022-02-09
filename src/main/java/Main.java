@@ -10,9 +10,11 @@ public class Main {
     String commandName = inputObj.next();
     System.out.println("command name: " + commandName);
     int firstArg = Integer.parseInt(inputObj.next());
+    System.out.println("firstArg: " + firstArg);
     int secondArg = 0;
     if (inputObj.hasNext()) {
       secondArg = Integer.parseInt(inputObj.next());
+      System.out.println("secondArg: " + secondArg);
     }
 
     if (commandName == "add") {
