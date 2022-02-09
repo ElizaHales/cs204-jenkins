@@ -2,10 +2,10 @@ import java.util.Scanner;
 
 public class Main {
   public static void main(String[] args) {
+    Scanner inputObj=new Scanner(System.in);
     System.out.println("Welcome to the calculator!");
     System.out.println("Please enter a command:");
 
-    Scanner inputObj=new Scanner(System.in);
     while (inputObj.hasNext()) {
       Calculator calculator=new Calculator();
       String commandName=inputObj.next();
